@@ -1,0 +1,233 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "works": "作品",
+    "resume": "履歴書",
+    "honors": "栄誉"
+  },
+  "common": {
+    "name": "Sparky327(Cheng Sizhe) の個人ホームページ",
+    "language": "言語",
+    "switchLanguage": "English",
+    "school": "学校",
+    "email": "メール",
+    "github": "GitHub",
+    "orcid": "ORCID",
+    "viewMore": "もっと見る"
+  },
+  "info": {
+    "school": "南洋理工大学",
+    "email": "sizhe003@e.ntu.edu.sg",
+    "github": "https://github.com/Sparky579",
+    "orcid": "https://orcid.org/0009-0001-2474-9230"
+  },
+  "home": {
+    "title": "私の個人ホームページへようこそ！",
+    "subtitle": "私の学術と技術の旅を探検する",
+    "introduction": "私は南方科技大学を卒業し、今年（2025年）8月に南洋理工大学に入学し、研究型修士号を取得する予定です。\n私の研究関心はテクニカルHCI分野に集中しており、大規模モデル、機械学習アルゴリズム、その他の興味深い技術のインタラクションシステムにおける革新的な応用を探求しています。",
+    "viewWorks": "作品を見る",
+    "downloadResume": "履歴書をダウンロード",
+    "featuredWork": "注目作品",
+    "research": "科学研究",
+    "development": "技術開発",
+    "collaboration": "チーム協力",
+    "nav": {
+      "worksDesc": "私の学術プロジェクトや開発作品を閲覧し、私の技術力と革新的な思考を理解する",
+      "resumeDesc": "私の教育背景、スキル、職務経験を確認し、私の専門能力を総合的に理解する",
+      "honorsDesc": "私が受賞した様々な賞や認定を探り、私の成長と成果を目撃する"
+    }
+  },
+  "works": {
+    "title": "私の作品",
+    "subtitle": "私のプロジェクトと研究成果の展示",
+    "projectTitle": "プロジェクトタイトル",
+    "projectDescription": "プロジェクトの説明",
+    "techStack": "技術スタック",
+    "viewProject": "プロジェクトを見る",
+    "demoLink": "デモリンク",
+    "projectLink": "作品リンク",
+    "showImages": "画像を表示",
+    "hideImages": "画像を隠す",
+    "categories": {
+      "academic": "学術プロジェクト",
+      "development": "開発プロジェクト",
+      "other": "その他"
+    },
+    "projects": [
+      {
+        "title": "RAGTrace: RAGシステムの検索-強化チェーンの可視化分析",
+        "description": "RAGTraceは、RAGシステムの検索-強化チェーンのための反復的な可視化分析システムです。ユーザーがRAGシステム内の検索と強化プロセスの相互作用を理解し、RAGシステムのパフォーマンスを最適化するのに役立ちます。力導入グラフ、チャンク再順序グラフ、レーダーチャートなどを設計し、検索と強化プロセスを段階的に表示し、ユーザーにRAGのブラックボックスを開きます。",
+        "technologies": ["d3.js", "ECharts", "Python"],
+        "category": "academic",
+        "images": ["work-1-1.jpg", "work-1-2.jpg"],
+        "projectUrl": "https://proceedings.mlr.press/example",
+        "projectLinkEnabled": false
+      },
+      {
+        "title": "機械ビジョンに基づく教室の質分析",
+        "description": "私たちは、教室内の学生の行動を自動的に分析し、対応する分析レポートを提供できる機械ビジョンに基づく教室の質分析システムを設計しました。VLMモデルを使用して教室内容の初期分析を行い、YOLOモデルを使用して学生の行動分析を行います。",
+        "technologies": ["YOLOv8", "Flask", "VLM"],
+        "category": "academic",
+        "images": ["work-2-1.jpg"],
+        "projectUrl": "https://openaccess.thecvf.com/example",
+        "projectLinkEnabled": false
+      },
+      {
+        "title": "ボードゲーム「牛頭王」AI対戦システム",
+        "description": "ボードゲーム「牛頭王」のために、AI対戦システムおよび対応するフロントエンド、バックエンド、データベースを設計しました。AIは6つのレベルに分かれ、ランダム、貪欲、ヒューリスティック貪欲、モンテカルロ、ヒューリスティックモンテカルロ木探索などのアルゴリズムを採用しています。",
+        "technologies": ["Vue.js", "Flask", "SQLite"],
+        "category": "development",
+        "images": ["work-3-1.jpg"],
+        "projectUrl": "https://github.com/Sparky579/Nimmt",
+        "projectLinkEnabled": true
+      },
+      {
+        "title": "MiraiベースのQQグループエンターテインメントロボット",
+        "description": "MiraiベースのQQグループエンターテインメントロボットを開発し、自動的にグループメッセージに返信し、チェックイン、抽選、大規模言語モデルの会話など、さまざまなエンターテインメント機能を提供します。Javaで開発。",
+        "technologies": ["Java", "Mirai", "OpenAI"],
+        "category": "development",
+        "images": [],
+        "projectUrl": "https://github.com/Sparky579/EDT_Mirai_Plugin",
+        "projectLinkEnabled": true
+      }
+    ]
+  },
+  "resume": {
+    "title": "個人履歴書",
+    "education": "学歴",
+    "experience": "交流経験",
+    "skills": "スキル",
+    "publications": "論文発表",
+    "downloadPDF": "PDF版をダウンロード",
+    "educationData": [
+      {
+        "id": 1,
+        "year": "2025-現在",
+        "degree": "コンピュータサイエンス工学修士課程在学中",
+        "school": "南洋理工大学",
+        "description": "テクニカルHCI研究に専念し、指導教員は王勇助教授。",
+        "details": []
+      },
+      {
+        "id": 2,
+        "year": "2021-2025",
+        "degree": "コンピュータサイエンス工学学士",
+        "school": "南方科技大学",
+        "description": "南方科技大学チューリングクラスでコンピュータサイエンス学士号（優等）を取得。指導教員は馬昱欣准教授。",
+        "details": ["GPA: 3.73/4.0", "チューリングクラス優秀卒業生", "コンピュータ学科優秀卒業生"]
+      }
+    ],
+    "experienceData": [
+      {
+        "id": 1,
+        "period": "2024",
+        "position": "訪問学生",
+        "company": "浙江大学",
+        "description": "浙江大学コンピュータ学院で半年間の訪問学習を行い、研究分野は可視化分析とマルチモーダル大規模モデル。指導教員は陳為教授と朱閩峰博士。",
+        "achievements": [
+          "浙江大学コンピュータ学院のKLMVis研究プロジェクトに参加",
+          "マルチモーダル大規模モデルの蒸留作業に参加"
+        ]
+      }
+    ],
+    "skillsData": [
+      {
+        "category": "プログラミング言語",
+        "items": [
+          { "name": "C++", "level": 80 },
+          { "name": "JavaScript", "level": 70 },
+          { "name": "Python", "level": 70 },
+          { "name": "Java", "level": 65 }
+        ]
+      },
+      {
+        "category": "機械学習",
+        "items": [
+          { "name": "PyTorch", "level": 60 },
+          { "name": "Scikit-learn", "level": 55 },
+          { "name": "OpenCV", "level": 40 },
+          { "name": "TensorFlow", "level": 40 }
+        ]
+      },
+      {
+        "category": "Web開発",
+        "items": [
+          { "name": "Vue.js", "level": 85 },
+          { "name": "React", "level": 70 },
+          { "name": "Node.js", "level": 50 },
+          { "name": "Docker", "level": 50 }
+        ]
+      }
+    ],
+    "publicationsData": [
+      {
+        "id": 1,
+        "year": 2024,
+        "title": "KLMVis: Visual Analysis System for Retrieval-Augmented Language Models",
+        "authors": "Jian Shen, Minfeng Zhu, Yuxin Ma, <strong>Sizhe Cheng</strong>, Zhizhang Chen, Danfang Yan, Wei Chen",
+        "venue": "Journal of Computer-Aided Design and Computer Graphics",
+        "doi": "10.3724/SP.J.1089.2024-00393",
+        "url": "https://www.jcad.cn/cn/article/pdf/preview/10.3724/SP.J.1089.2024-00393.pdf"
+      }
+    ]
+  },
+  "honors": {
+    "title": "栄誉賞",
+    "subtitle": "私が得た認定と成果",
+    "award": "賞",
+    "date": "受賞日",
+    "organization": "授与機関",
+    "description": "説明",
+    "categories": [
+      { "key": "all", "name": "すべて" },
+      { "key": "academic", "name": "学術賞" },
+      { "key": "competition", "name": "コンテスト賞" },
+      { "key": "other", "name": "その他" }
+    ],
+    "levels": {
+      "international": "国際レベル",
+      "national": "国家レベル",
+      "regional": "省市レベル",
+      "university": "大学レベル"
+    },
+    "honorsData": [
+      {
+        "id": 1,
+        "title": "ACM-ICPC 2023 アジア地区大会 銀メダル",
+        "organization": "ACM-ICPC",
+        "date": "2023年11月",
+        "description": "ACM-ICPC 2023 アジア地区大会で銀メダルを獲得。",
+        "category": "academic",
+        "level": "international",
+        "icon": "🏆",
+        "link": "https://icpc.global"
+      },
+      {
+        "id": 2,
+        "title": "深圳市ブリッジ選手権 ダブルス 優勝",
+        "organization": "深圳市ブリッジ協会",
+        "date": "2023年11月",
+        "description": "深圳市ブリッジ選手権でダブルス優勝を獲得。",
+        "category": "competition",
+        "level": "regional",
+        "icon": "🥇",
+        "link": "https://www.szpba.org.cn"
+      },
+      {
+        "id": 3,
+        "title": "南方科技大学 コンピュータ学科 優秀卒業生",
+        "organization": "南方科技大学",
+        "date": "2025年6月",
+        "description": "学業成績優秀および研究能力優秀のため、南方科技大学コンピュータ学科優秀卒業生を受賞。",
+        "category": "other",
+        "level": "university",
+        "icon": "🎓",
+        "link": null
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "著作権所有",
+    "allRightsReserved": "全ての権利を保有"
+  }
+} 

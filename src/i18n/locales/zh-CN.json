@@ -1,0 +1,233 @@
+{
+  "nav": {
+    "home": "主页",
+    "works": "作品",
+    "resume": "简历",
+    "honors": "荣誉"
+  },
+  "common": {
+    "name": "Sparky327(程司哲) 的个人主页",
+    "language": "语言",
+    "switchLanguage": "English",
+    "school": "学校",
+    "email": "邮箱",
+    "github": "GitHub",
+    "orcid": "ORCID",
+    "viewMore": "查看更多"
+  },
+  "info": {
+    "school": "南洋理工大学",
+    "email": "sizhe003@e.ntu.edu.sg",
+    "github": "https://github.com/Sparky579",
+    "orcid": "https://orcid.org/0009-0001-2474-9230"
+  },
+  "home": {
+    "title": "欢迎来到我的个人主页！",
+    "subtitle": "探索我的学术和技术之旅",
+    "introduction": "我是一名南方科技大学毕业生，即将于今年(2025年)8月加入南洋理工大学，攻读研究型硕士学位。\n我的研究兴趣聚焦于技术性人机交互(Technical HCI)领域，致力于探索大模型，机器学习算法与一切其他有趣的技术在交互系统中的创新应用。",
+    "viewWorks": "查看作品",
+    "downloadResume": "下载简历",
+    "featuredWork": "精选作品",
+    "research": "科学研究",
+    "development": "技术开发",
+    "collaboration": "团队协作",
+    "nav": {
+      "worksDesc": "浏览我的学术项目和开发作品，了解我的技术能力和创新思维",
+      "resumeDesc": "查看我的教育背景、技能专长和工作经历，全面了解我的专业能力",
+      "honorsDesc": "探索我获得的各类奖项和认可，见证我的成长和成就历程"
+    }
+  },
+  "works": {
+    "title": "我的作品",
+    "subtitle": "展示我的项目和研究成果",
+    "projectTitle": "项目标题",
+    "projectDescription": "项目描述", 
+    "techStack": "技术栈",
+    "viewProject": "查看项目",
+    "demoLink": "演示链接",
+    "projectLink": "作品链接",
+    "showImages": "显示图片",
+    "hideImages": "隐藏图片",
+    "categories": {
+      "academic": "学术项目",
+      "development": "开发项目",
+      "other": "其他"
+    },
+    "projects": [
+      {
+        "title": "RAGTrace: 针对RAG系统检索-增强链路的可视化分析",
+        "description": "RAGTrace 是一个针对 RAG 系统检索-增强链路的迭代式可视化分析系统。它能够帮助用户理解 RAG 系统中检索和增强过程的交互，从而优化 RAG 系统的性能。我们设计了力引导图，Chunk重排序图和雷达图等方式，分步骤展现检索和增强过程，为用户打开 RAG 的黑盒。",
+        "technologies": ["d3.js", "ECharts", "Python"],
+        "category": "academic",
+        "images": ["work-1-1.jpg", "work-1-2.jpg"],
+        "projectUrl": "https://proceedings.mlr.press/example",
+        "projectLinkEnabled": false
+      },
+      {
+        "title": "基于机器视觉的教室课堂质量分析",
+        "description": "我们设计了基于机器视觉的教室课堂质量分析系统，能够自动分析教室课堂中的学生行为，并给出相应的分析报告。我们使用 VLM 模型进行初步的课堂内容分析，使用 YOLO 模型进行学生行为分析。",
+        "technologies": ["YOLOv8", "Flask", "VLM"],
+        "category": "academic",
+        "images": ["work-2-1.jpg"],
+        "projectUrl": "https://openaccess.thecvf.com/example",
+        "projectLinkEnabled": false
+      },
+      {
+        "title": "桌游 谁是牛头王 AI对战系统",
+        "description": "我们为桌游 谁是牛头王 设计了 AI 对战系统以及配套的前后端和数据库。AI 分为六个级别，采用随机、贪心、启发式贪心、蒙特卡洛、启发式蒙特卡洛树搜索等算法。",
+        "technologies": ["Vue.js", "Flask", "SQLite"],
+        "category": "development",
+        "images": ["work-3-1.jpg"],
+        "projectUrl": "https://github.com/Sparky579/Nimmt",
+        "projectLinkEnabled": true
+      },
+      {
+        "title": "基于 Mirai 的 QQ 群娱乐机器人",
+        "description": "我们开发了一个基于 Mirai 的 QQ 群娱乐机器人，能够自动回复群消息，并提供各种娱乐功能，如签到，抽奖，大语言模型对话等。使用 Java 开发。",
+        "technologies": ["Java", "Mirai", "OpenAI"],
+        "category": "development",
+        "images": [],
+        "projectUrl": "https://github.com/Sparky579/EDT_Mirai_Plugin",
+        "projectLinkEnabled": true
+      }
+    ]
+  },
+  "resume": {
+    "title": "个人简历",
+    "education": "教育经历",
+    "experience": "交流经历",
+    "skills": "技能专长",
+    "publications": "发表论文",
+    "downloadPDF": "下载PDF版本",
+    "educationData": [
+      {
+        "id": 1,
+        "year": "2025-至今",
+        "degree": "计算机科学工学硕士在读",
+        "school": "南洋理工大学",
+        "description": "专注于技术性人机交互研究，导师为王勇助理教授。",
+        "details": []
+      },
+      {
+        "id": 2,
+        "year": "2021-2025",
+        "degree": "计算机科学工学学士",
+        "school": "南方科技大学",
+        "description": "于南方科技大学图灵班获得计算机科学学士荣誉学位。指导老师为马昱欣副教授。",
+        "details": ["GPA: 3.73/4.0", "图灵班荣誉毕业生", "计算机系优秀毕业生"]
+      }
+    ],
+    "experienceData": [
+      {
+        "id": 1,
+        "period": "2024",
+        "position": "访问学生",
+        "company": "浙江大学",
+        "description": "在浙江大学计算机学院进行为期半年的访问学习，研究方向为可视分析与多模态大模型。指导老师为陈为教授和朱闽峰博士。",
+        "achievements": [
+          "参与了浙江大学计算机学院的KLMVis科研项目",
+          "参与了多模态大模型蒸馏方面的工作"
+        ]
+      }
+    ],
+    "skillsData": [
+      {
+        "category": "编程语言",
+        "items": [
+          { "name": "C++", "level": 80 },
+          { "name": "JavaScript", "level": 70 },
+          { "name": "Python", "level": 70 },
+          { "name": "Java", "level": 65 }
+        ]
+      },
+      {
+        "category": "机器学习",
+        "items": [
+          { "name": "PyTorch", "level": 60 },
+          { "name": "Scikit-learn", "level": 55 },
+          { "name": "OpenCV", "level": 40 },
+          { "name": "TensorFlow", "level": 40 }
+        ]
+      },
+      {
+        "category": "Web开发",
+        "items": [
+          { "name": "Vue.js", "level": 85 },
+          { "name": "React", "level": 70 },
+          { "name": "Node.js", "level": 50 },
+          { "name": "Docker", "level": 50 }
+        ]
+      }
+    ],
+    "publicationsData": [
+      {
+        "id": 1,
+        "year": 2024,
+        "title": "KLMVis: 基于知识图谱的检索增强语言模型可视分析系统",
+        "authors": "沈健,朱闽峰,马昱欣,<strong>程司哲</strong>,陈治彰,严丹方,陈为",
+        "venue": "计算机辅助设计与图形学学报",
+        "doi": "10.3724/SP.J.1089.2024-00393",
+        "url": "https://www.jcad.cn/cn/article/pdf/preview/10.3724/SP.J.1089.2024-00393.pdf"
+      }
+    ]
+  },
+  "honors": {
+    "title": "荣誉奖项",
+    "subtitle": "我获得的认可和成就",
+    "award": "奖项",
+    "date": "获奖时间",
+    "organization": "颁发机构",
+    "description": "描述",
+    "categories": [
+      { "key": "all", "name": "全部" },
+      { "key": "academic", "name": "学术奖项" },
+      { "key": "competition", "name": "竞赛奖项" },
+      { "key": "other", "name": "其他" }
+    ],
+    "levels": {
+      "international": "国际级",
+      "national": "国家级",
+      "regional": "省市级",
+      "university": "校级"
+    },
+    "honorsData": [
+      {
+        "id": 1,
+        "title": "ACM-ICPC 2023 亚洲区域赛 银牌",
+        "organization": "ACM-ICPC",
+        "date": "2023年11月",
+        "description": "在ACM-ICPC 2023 亚洲区域赛中获得银牌。",
+        "category": "academic",
+        "level": "international",
+        "icon": "🏆",
+        "link": "https://icpc.global"
+      },
+      {
+        "id": 2,
+        "title": "深圳市桥牌锦标赛 双人赛 冠军",
+        "organization": "深圳市桥牌协会",
+        "date": "2023年11月",
+        "description": "在深圳市桥牌锦标赛中获得双人赛冠军。",
+        "category": "competition",
+        "level": "regional",
+        "icon": "🥇",
+        "link": "https://www.szpba.org.cn"
+      },
+      {
+        "id": 3,
+        "title": "南方科技大学 计算机系 优秀毕业生",
+        "organization": "南方科技大学",
+        "date": "2025年6月",
+        "description": "因学术成绩优异和科研能力突出获得南方科技大学计算机系优秀毕业生。",
+        "category": "other",
+        "level": "university",
+        "icon": "🎓",
+        "link": null
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "版权所有",
+    "allRightsReserved": "保留所有权利"
+  }
+} 

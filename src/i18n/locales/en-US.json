@@ -1,0 +1,233 @@
+{
+  "nav": {
+    "home": "Home",
+    "works": "Works",
+    "resume": "Resume",
+    "honors": "Honors"
+  },
+  "common": {
+    "name": "Sparky327(Cheng Sizhe) Personal Homepage",
+    "language": "Language",
+    "switchLanguage": "中文",
+    "school": "School",
+    "email": "Email",
+    "github": "GitHub",
+    "orcid": "ORCID",
+    "viewMore": "View More"
+  },
+  "info": {
+    "school": "Nanyang Technological University",
+    "email": "sizhe003@e.ntu.edu.sg",
+    "github": "https://github.com/Sparky579",
+    "orcid": "https://orcid.org/0009-0001-2474-9230"
+  },
+  "home": {
+    "title": "Welcome to My Personal Homepage!",
+    "subtitle": "Explore my academic and technical journey",
+    "introduction": "I am a graduate of Southern University of Science and Technology and will join Nanyang Technological University in August 2025 to pursue a research-based master's degree. My research interests focus on Technical HCI, exploring innovative applications of large models, machine learning algorithms, and other interesting technologies in interactive systems.",
+    "viewWorks": "View Works",
+    "downloadResume": "Download Resume",
+    "featuredWork": "Featured Works",
+    "research": "Research",
+    "development": "Development",
+    "collaboration": "Collaboration",
+    "nav": {
+      "worksDesc": "Browse my academic projects and development works to understand my technical skills and innovative thinking",
+      "resumeDesc": "View my educational background, skills, and work experience for a comprehensive understanding of my professional abilities",
+      "honorsDesc": "Explore the various awards and recognitions I have received, witnessing my growth and achievements"
+    }
+  },
+  "works": {
+    "title": "My Works",
+    "subtitle": "Showcasing my projects and research achievements",
+    "projectTitle": "Project Title",
+    "projectDescription": "Project Description",
+    "techStack": "Tech Stack",
+    "viewProject": "View Project",
+    "demoLink": "Demo Link",
+    "projectLink": "Project Link",
+    "showImages": "Show Images",
+    "hideImages": "Hide Images",
+    "categories": {
+      "academic": "Academic Projects",
+      "development": "Development Projects",
+      "other": "Other"
+    },
+    "projects": [
+      {
+        "title": "RAGTrace: Visual Analysis for Retrieval-Augmented Chain in RAG Systems",
+        "description": "RAGTrace is an iterative visual analysis system for the retrieval-augmented chain in RAG systems. It helps users understand the interaction between retrieval and augmentation processes in RAG systems, thereby optimizing RAG system performance. We designed force-directed graphs, chunk reordering graphs, and radar charts to present the retrieval and augmentation processes step by step, opening the black box of RAG for users.",
+        "technologies": ["d3.js", "ECharts", "Python"],
+        "category": "academic",
+        "images": ["work-1-1.jpg", "work-1-2.jpg"],
+        "projectUrl": "https://proceedings.mlr.press/example",
+        "projectLinkEnabled": false
+      },
+      {
+        "title": "Machine Vision-based Classroom Quality Analysis",
+        "description": "We designed a machine vision-based classroom quality analysis system that can automatically analyze student behavior in classrooms and provide corresponding analysis reports. We use VLM models for preliminary classroom content analysis and YOLO models for student behavior analysis.",
+        "technologies": ["YOLOv8", "Flask", "VLM"],
+        "category": "academic",
+        "images": ["work-2-1.jpg"],
+        "projectUrl": "https://openaccess.thecvf.com/example",
+        "projectLinkEnabled": false
+      },
+      {
+        "title": "Nimmt 7 AI Battle System",
+        "description": "We designed an AI battle system and a corresponding front-end and database for the board game Nimmt 7. The AI is divided into six levels, using random, greedy, heuristic greedy, Monte Carlo, and heuristic Monte Carlo tree search algorithms.",
+        "technologies": ["Vue.js", "Flask", "SQLite"],
+        "category": "development",
+        "images": ["work-3-1.jpg"],
+        "projectUrl": "https://github.com/Sparky579/Nimmt",
+        "projectLinkEnabled": true
+      },
+      {
+        "title": "QQ Group Entertainment Robot Based on Mirai",
+        "description": "We developed a QQ group entertainment robot based on Mirai, which can automatically reply to group messages and provide various entertainment functions, such as check-ins, lotteries, and large language model conversations. Developed using Java.",
+        "technologies": ["Java", "Mirai", "OpenAI"],
+        "category": "development",
+        "images": [],
+        "projectUrl": "https://github.com/Sparky579/EDT_Mirai_Plugin",
+        "projectLinkEnabled": true
+      }
+    ]
+  },
+  "resume": {
+    "title": "Resume",
+    "education": "Education",
+    "experience": "Exchange Experience",
+    "skills": "Skills",
+    "publications": "Publications",
+    "downloadPDF": "Download PDF Version",
+    "educationData": [
+      {
+        "id": 1,
+        "year": "2025-Present",
+        "degree": "M.Eng. in Computer Science (in progress)",
+        "school": "Nanyang Technological University",
+        "description": "Focusing on technical human-computer interaction research, supervised by Assistant Professor Wang Yong.",
+        "details": []
+      },
+      {
+        "id": 2,
+        "year": "2021-2025",
+        "degree": "B.Eng. in Computer Science",
+        "school": "Southern University of Science and Technology",
+        "description": "Graduated with honors from the Turing Class, supervised by Associate Professor Ma Yuxin.",
+        "details": ["GPA: 3.73/4.0", "Turing Class Honor Graduate", "Outstanding Graduate of the Department of Computer Science"]
+      }
+    ],
+    "experienceData": [
+      {
+        "id": 1,
+        "period": "2024",
+        "position": "Visiting Student",
+        "company": "Zhejiang University",
+        "description": "Conducted a six-month academic visit at the College of Computer Science, Zhejiang University, focusing on visual analytics and multi-modal large models. Supervised by Professor Chen Wei and Dr. Zhu Minfeng.",
+        "achievements": [
+          "Participated in the KLMVis research project at Zhejiang University College of Computer Science",
+          "Worked on multi-modal large model distillation"
+        ]
+      }
+    ],
+    "skillsData": [
+      {
+        "category": "Programming Languages",
+        "items": [
+          { "name": "C++", "level": 80 },
+          { "name": "JavaScript", "level": 70 },
+          { "name": "Python", "level": 70 },
+          { "name": "Java", "level": 65 }
+        ]
+      },
+      {
+        "category": "Machine Learning",
+        "items": [
+          { "name": "PyTorch", "level": 60 },
+          { "name": "Scikit-learn", "level": 55 },
+          { "name": "OpenCV", "level": 40 },
+          { "name": "TensorFlow", "level": 40 }
+        ]
+      },
+      {
+        "category": "Web Development",
+        "items": [
+          { "name": "Vue.js", "level": 85 },
+          { "name": "React", "level": 70 },
+          { "name": "Node.js", "level": 50 },
+          { "name": "Docker", "level": 50 }
+        ]
+      }
+    ],
+    "publicationsData": [
+      {
+        "id": 1,
+        "year": 2024,
+        "title": "KLMVis: Visual Analysis System for Retrieval-Augmented Language Models",
+        "authors": "Shen Jian, Zhu Minfeng, Ma Yuxin, <strong>Cheng Sizhe</strong>, Chen Zhizhang, Yan Danfang, Chen Wei",
+        "venue": "Journal of Computer-Aided Design and Computer Graphics",
+        "doi": "10.3724/SP.J.1089.2024-00393",
+        "url": "https://www.jcad.cn/cn/article/pdf/preview/10.3724/SP.J.1089.2024-00393.pdf"
+      }
+    ]
+  },
+  "honors": {
+    "title": "Honors & Awards",
+    "subtitle": "Recognitions and achievements I have received",
+    "award": "Award",
+    "date": "Date",
+    "organization": "Organization",
+    "description": "Description",
+    "categories": [
+      { "key": "all", "name": "All" },
+      { "key": "academic", "name": "Academic Awards" },
+      { "key": "competition", "name": "Competition Awards" },
+      { "key": "other", "name": "Other" }
+    ],
+    "levels": {
+      "international": "International",
+      "national": "National",
+      "regional": "Regional",
+      "university": "University"
+    },
+    "honorsData": [
+      {
+        "id": 1,
+        "title": "ACM-ICPC 2023 Asia Regional Contest Silver Medal",
+        "organization": "ACM-ICPC",
+        "date": "November 2023",
+        "description": "Won the silver medal at the ACM-ICPC 2023 Asia Regional Contest.",
+        "category": "academic",
+        "level": "international",
+        "icon": "🏆",
+        "link": "https://icpc.global"
+      },
+      {
+        "id": 2,
+        "title": "Shenzhen Bridge Championship Pairs Champion",
+        "organization": "Shenzhen Bridge Association",
+        "date": "November 2023",
+        "description": "Won the pairs champion at the Shenzhen Bridge Championship.",
+        "category": "competition",
+        "level": "regional",
+        "icon": "🥇",
+        "link": "https://www.szpba.org.cn"
+      },
+      {
+        "id": 3,
+        "title": "Outstanding Graduate of the Department of Computer Science, SUSTech",
+        "organization": "Southern University of Science and Technology",
+        "date": "June 2025",
+        "description": "Awarded for outstanding academic performance and research ability.",
+        "category": "other",
+        "level": "university",
+        "icon": "🎓",
+        "link": null
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "Copyright",
+    "allRightsReserved": "All rights reserved"
+  }
+} 

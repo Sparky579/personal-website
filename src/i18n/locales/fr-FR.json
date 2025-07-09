@@ -1,0 +1,233 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "works": "Œuvres",
+    "resume": "CV",
+    "honors": "Honneurs"
+  },
+  "common": {
+    "name": "Page personnelle de Sparky327(Cheng Sizhe)",
+    "language": "Langue",
+    "switchLanguage": "English",
+    "school": "École",
+    "email": "E-mail",
+    "github": "GitHub",
+    "orcid": "ORCID",
+    "viewMore": "Voir plus"
+  },
+  "info": {
+    "school": "Université technologique de Nanyang",
+    "email": "sizhe003@e.ntu.edu.sg",
+    "github": "https://github.com/Sparky579",
+    "orcid": "https://orcid.org/0009-0001-2474-9230"
+  },
+  "home": {
+    "title": "Bienvenue sur ma page personnelle !",
+    "subtitle": "Explorez mon parcours académique et technique",
+    "introduction": "Je suis diplômé de l'Université des sciences et technologies du Sud et je rejoindrai l'Université technologique de Nanyang en août 2025 pour poursuivre un master de recherche.\nMes intérêts de recherche portent sur l'interaction homme-machine technique (Technical HCI), explorant les applications innovantes des grands modèles, des algorithmes d'apprentissage automatique et d'autres technologies intéressantes dans les systèmes interactifs.",
+    "viewWorks": "Voir les œuvres",
+    "downloadResume": "Télécharger le CV",
+    "featuredWork": "Œuvres en vedette",
+    "research": "Recherche scientifique",
+    "development": "Développement technique",
+    "collaboration": "Collaboration d'équipe",
+    "nav": {
+      "worksDesc": "Parcourez mes projets académiques et mes œuvres de développement pour comprendre mes compétences techniques et ma pensée innovante",
+      "resumeDesc": "Consultez mon parcours éducatif, mes compétences et mon expérience professionnelle pour une compréhension complète de mes capacités professionnelles",
+      "honorsDesc": "Découvrez les différents prix et reconnaissances que j'ai reçus, témoignant de ma croissance et de mes réalisations"
+    }
+  },
+  "works": {
+    "title": "Mes œuvres",
+    "subtitle": "Présentation de mes projets et réalisations de recherche",
+    "projectTitle": "Titre du projet",
+    "projectDescription": "Description du projet",
+    "techStack": "Stack technique",
+    "viewProject": "Voir le projet",
+    "demoLink": "Lien de démonstration",
+    "projectLink": "Lien de l'œuvre",
+    "showImages": "Afficher les images",
+    "hideImages": "Masquer les images",
+    "categories": {
+      "academic": "Projets académiques",
+      "development": "Projets de développement",
+      "other": "Autre"
+    },
+    "projects": [
+      {
+        "title": "RAGTrace: Analyse visuelle de la chaîne de récupération-amélioration dans les systèmes RAG",
+        "description": "RAGTrace est un système d'analyse visuelle itérative pour la chaîne de récupération-amélioration dans les systèmes RAG. Il aide les utilisateurs à comprendre l'interaction entre les processus de récupération et d'amélioration dans les systèmes RAG, optimisant ainsi leurs performances. Nous avons conçu des graphes dirigés par la force, des graphes de réordonnancement de chunks et des graphiques radar pour présenter étape par étape les processus de récupération et d'amélioration, ouvrant la boîte noire de RAG aux utilisateurs.",
+        "technologies": ["d3.js", "ECharts", "Python"],
+        "category": "academic",
+        "images": ["work-1-1.jpg", "work-1-2.jpg"],
+        "projectUrl": "https://proceedings.mlr.press/example",
+        "projectLinkEnabled": false
+      },
+      {
+        "title": "Analyse de la qualité des salles de classe basée sur la vision par ordinateur",
+        "description": "Nous avons conçu un système d'analyse de la qualité des salles de classe basé sur la vision par ordinateur, capable d'analyser automatiquement le comportement des étudiants et de fournir des rapports d'analyse correspondants. Nous utilisons le modèle VLM pour une analyse préliminaire du contenu de la classe et le modèle YOLO pour l'analyse du comportement des étudiants.",
+        "technologies": ["YOLOv8", "Flask", "VLM"],
+        "category": "academic",
+        "images": ["work-2-1.jpg"],
+        "projectUrl": "https://openaccess.thecvf.com/example",
+        "projectLinkEnabled": false
+      },
+      {
+        "title": "Jeu de société Nimmt 7 : Système de combat IA",
+        "description": "Nous avons conçu un système de combat IA et un front-end, back-end et base de données associés pour le jeu de société Nimmt 7. L'IA est divisée en six niveaux, utilisant des algorithmes aléatoires, gloutons, gloutons heuristiques, Monte Carlo et recherche d'arbre Monte Carlo heuristique.",
+        "technologies": ["Vue.js", "Flask", "SQLite"],
+        "category": "development",
+        "images": ["work-3-1.jpg"],
+        "projectUrl": "https://github.com/Sparky579/Nimmt",
+        "projectLinkEnabled": true
+      },
+      {
+        "title": "Robot de divertissement QQ basé sur Mirai",
+        "description": "Nous avons développé un robot de divertissement QQ basé sur Mirai, capable de répondre automatiquement aux messages de groupe et de fournir diverses fonctions de divertissement telles que l'enregistrement, la loterie et la conversation avec un grand modèle de langage. Développé en Java.",
+        "technologies": ["Java", "Mirai", "OpenAI"],
+        "category": "development",
+        "images": [],
+        "projectUrl": "https://github.com/Sparky579/EDT_Mirai_Plugin",
+        "projectLinkEnabled": true
+      }
+    ]
+  },
+  "resume": {
+    "title": "CV personnel",
+    "education": "Parcours éducatif",
+    "experience": "Expérience d'échange",
+    "skills": "Compétences",
+    "publications": "Publications",
+    "downloadPDF": "Télécharger la version PDF",
+    "educationData": [
+      {
+        "id": 1,
+        "year": "2025-Présent",
+        "degree": "Master en informatique (en cours)",
+        "school": "Université technologique de Nanyang",
+        "description": "Concentration sur la recherche en interaction homme-machine technique, supervisé par le professeur adjoint Wang Yong.",
+        "details": []
+      },
+      {
+        "id": 2,
+        "year": "2021-2025",
+        "degree": "Licence en informatique",
+        "school": "Université des sciences et technologies du Sud",
+        "description": "Diplômé avec mention du programme Turing à l'Université des sciences et technologies du Sud, supervisé par le professeur associé Ma Yuxin.",
+        "details": ["GPA: 3.73/4.0", "Diplômé d'honneur du programme Turing", "Diplômé d'excellence du département d'informatique"]
+      }
+    ],
+    "experienceData": [
+      {
+        "id": 1,
+        "period": "2024",
+        "position": "Étudiant visiteur",
+        "company": "Université du Zhejiang",
+        "description": "Séjour de six mois à la faculté d'informatique de l'Université du Zhejiang, axé sur l'analyse visuelle et les grands modèles multimodaux. Supervisé par le professeur Chen Wei et le Dr Zhu Minfeng.",
+        "achievements": [
+          "Participation au projet de recherche KLMVis à la faculté d'informatique de l'Université du Zhejiang",
+          "Travail sur la distillation de grands modèles multimodaux"
+        ]
+      }
+    ],
+    "skillsData": [
+      {
+        "category": "Langages de programmation",
+        "items": [
+          { "name": "C++", "level": 80 },
+          { "name": "JavaScript", "level": 70 },
+          { "name": "Python", "level": 70 },
+          { "name": "Java", "level": 65 }
+        ]
+      },
+      {
+        "category": "Apprentissage automatique",
+        "items": [
+          { "name": "PyTorch", "level": 60 },
+          { "name": "Scikit-learn", "level": 55 },
+          { "name": "OpenCV", "level": 40 },
+          { "name": "TensorFlow", "level": 40 }
+        ]
+      },
+      {
+        "category": "Développement Web",
+        "items": [
+          { "name": "Vue.js", "level": 85 },
+          { "name": "React", "level": 70 },
+          { "name": "Node.js", "level": 50 },
+          { "name": "Docker", "level": 50 }
+        ]
+      }
+    ],
+    "publicationsData": [
+      {
+        "id": 1,
+        "year": 2024,
+        "title": "KLMVis: Visual Analysis System for Retrieval-Augmented Language Models",
+        "authors": "Jian Shen, Minfeng Zhu, Yuxin Ma, <strong>Sizhe Cheng</strong>, Zhizhang Chen, Danfang Yan, Wei Chen",
+        "venue": "Journal of Computer-Aided Design and Computer Graphics",
+        "doi": "10.3724/SP.J.1089.2024-00393",
+        "url": "https://www.jcad.cn/cn/article/pdf/preview/10.3724/SP.J.1089.2024-00393.pdf"
+      }
+    ]
+  },
+  "honors": {
+    "title": "Prix et distinctions",
+    "subtitle": "Reconnaissances et réalisations obtenues",
+    "award": "Prix",
+    "date": "Date",
+    "organization": "Organisme",
+    "description": "Description",
+    "categories": [
+      { "key": "all", "name": "Tous" },
+      { "key": "academic", "name": "Prix académiques" },
+      { "key": "competition", "name": "Prix de concours" },
+      { "key": "other", "name": "Autre" }
+    ],
+    "levels": {
+      "international": "International",
+      "national": "National",
+      "regional": "Régional",
+      "university": "Université"
+    },
+    "honorsData": [
+      {
+        "id": 1,
+        "title": "ACM-ICPC 2023 Médaille d'argent région Asie",
+        "organization": "ACM-ICPC",
+        "date": "Novembre 2023",
+        "description": "Médaille d'argent à l'ACM-ICPC 2023 région Asie.",
+        "category": "academic",
+        "level": "international",
+        "icon": "🏆",
+        "link": "https://icpc.global"
+      },
+      {
+        "id": 2,
+        "title": "Championnat de bridge de Shenzhen - Double Champion",
+        "organization": "Association de bridge de Shenzhen",
+        "date": "Novembre 2023",
+        "description": "Champion du double au championnat de bridge de Shenzhen.",
+        "category": "competition",
+        "level": "regional",
+        "icon": "🥇",
+        "link": "https://www.szpba.org.cn"
+      },
+      {
+        "id": 3,
+        "title": "Diplômé d'excellence du département d'informatique de l'Université des sciences et technologies du Sud",
+        "organization": "Université des sciences et technologies du Sud",
+        "date": "Juin 2025",
+        "description": "Récompensé pour ses excellents résultats académiques et ses compétences en recherche.",
+        "category": "other",
+        "level": "university",
+        "icon": "🎓",
+        "link": null
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "Droits d'auteur",
+    "allRightsReserved": "Tous droits réservés"
+  }
+} 

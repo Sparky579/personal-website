@@ -1,0 +1,233 @@
+{
+  "nav": {
+    "home": "主頁",
+    "works": "作品",
+    "resume": "簡歷",
+    "honors": "榮譽"
+  },
+  "common": {
+    "name": "Sparky327(程司哲) 的個人主頁",
+    "language": "語言",
+    "switchLanguage": "English",
+    "school": "學校",
+    "email": "郵箱",
+    "github": "GitHub",
+    "orcid": "ORCID",
+    "viewMore": "查看更多"
+  },
+  "info": {
+    "school": "南洋理工大學",
+    "email": "sizhe003@e.ntu.edu.sg",
+    "github": "https://github.com/Sparky579",
+    "orcid": "https://orcid.org/0009-0001-2474-9230"
+  },
+  "home": {
+    "title": "歡迎來到我的個人主頁！",
+    "subtitle": "探索我的學術和技術之旅",
+    "introduction": "我是一名南方科技大學畢業生，即將於今年(2025年)8月加入南洋理工大學，攻讀研究型碩士學位。\n我的研究興趣聚焦於技術性人機互動(Technical HCI)領域，致力於探索大模型，機器學習算法與一切其他有趣的技術在互動系統中的創新應用。",
+    "viewWorks": "查看作品",
+    "downloadResume": "下載簡歷",
+    "featuredWork": "精選作品",
+    "research": "科學研究",
+    "development": "技術開發",
+    "collaboration": "團隊協作",
+    "nav": {
+      "worksDesc": "瀏覽我的學術項目和開發作品，了解我的技術能力和創新思維",
+      "resumeDesc": "查看我的教育背景、技能專長和工作經歷，全面了解我的專業能力",
+      "honorsDesc": "探索我獲得的各類獎項和認可，見證我的成長和成就歷程"
+    }
+  },
+  "works": {
+    "title": "我的作品",
+    "subtitle": "展示我的項目和研究成果",
+    "projectTitle": "項目標題",
+    "projectDescription": "項目描述",
+    "techStack": "技術棧",
+    "viewProject": "查看項目",
+    "demoLink": "演示鏈接",
+    "projectLink": "作品鏈接",
+    "showImages": "顯示圖片",
+    "hideImages": "隱藏圖片",
+    "categories": {
+      "academic": "學術項目",
+      "development": "開發項目",
+      "other": "其他"
+    },
+    "projects": [
+      {
+        "title": "RAGTrace: 針對RAG系統檢索-增強鏈路的可視化分析",
+        "description": "RAGTrace 是一個針對 RAG 系統檢索-增強鏈路的迭代式可視化分析系統。它能夠幫助用戶理解 RAG 系統中檢索和增強過程的交互，從而優化 RAG 系統的性能。我們設計了力引導圖，Chunk重排序圖和雷達圖等方式，分步驟展現檢索和增強過程，為用戶打開 RAG 的黑盒。",
+        "technologies": ["d3.js", "ECharts", "Python"],
+        "category": "academic",
+        "images": ["work-1-1.jpg", "work-1-2.jpg"],
+        "projectUrl": "https://proceedings.mlr.press/example",
+        "projectLinkEnabled": false
+      },
+      {
+        "title": "基於機器視覺的教室課堂質量分析",
+        "description": "我們設計了基於機器視覺的教室課堂質量分析系統，能夠自動分析教室課堂中的學生行為，並給出相應的分析報告。我們使用 VLM 模型進行初步的課堂內容分析，使用 YOLO 模型進行學生行為分析。",
+        "technologies": ["YOLOv8", "Flask", "VLM"],
+        "category": "academic",
+        "images": ["work-2-1.jpg"],
+        "projectUrl": "https://openaccess.thecvf.com/example",
+        "projectLinkEnabled": false
+      },
+      {
+        "title": "桌遊 誰是牛頭王 AI對戰系統",
+        "description": "我們為桌遊 誰是牛頭王 設計了 AI 對戰系統以及配套的前後端和數據庫。AI 分為六個級別，採用隨機、貪心、啟發式貪心、蒙特卡洛、啟發式蒙特卡洛樹搜索等算法。",
+        "technologies": ["Vue.js", "Flask", "SQLite"],
+        "category": "development",
+        "images": ["work-3-1.jpg"],
+        "projectUrl": "https://github.com/Sparky579/Nimmt",
+        "projectLinkEnabled": true
+      },
+      {
+        "title": "基於 Mirai 的 QQ 群娛樂機器人",
+        "description": "我們開發了一個基於 Mirai 的 QQ 群娛樂機器人，能夠自動回覆群消息，並提供各種娛樂功能，如簽到，抽獎，大語言模型對話等。使用 Java 開發。",
+        "technologies": ["Java", "Mirai", "OpenAI"],
+        "category": "development",
+        "images": [],
+        "projectUrl": "https://github.com/Sparky579/EDT_Mirai_Plugin",
+        "projectLinkEnabled": true
+      }
+    ]
+  },
+  "resume": {
+    "title": "個人簡歷",
+    "education": "教育經歷",
+    "experience": "交流經歷",
+    "skills": "技能專長",
+    "publications": "發表論文",
+    "downloadPDF": "下載PDF版本",
+    "educationData": [
+      {
+        "id": 1,
+        "year": "2025-至今",
+        "degree": "計算機科學工學碩士在讀",
+        "school": "南洋理工大學",
+        "description": "專注於技術性人機互動研究，導師為王勇助理教授。",
+        "details": []
+      },
+      {
+        "id": 2,
+        "year": "2021-2025",
+        "degree": "計算機科學工學學士",
+        "school": "南方科技大學",
+        "description": "於南方科技大學圖靈班獲得計算機科學學士榮譽學位。指導老師為馬昱欣副教授。",
+        "details": ["GPA: 3.73/4.0", "圖靈班榮譽畢業生", "計算機系優秀畢業生"]
+      }
+    ],
+    "experienceData": [
+      {
+        "id": 1,
+        "period": "2024",
+        "position": "訪問學生",
+        "company": "浙江大學",
+        "description": "在浙江大學計算機學院進行為期半年的訪問學習，研究方向為可視分析與多模態大模型。指導老師為陳為教授和朱閩峰博士。",
+        "achievements": [
+          "參與了浙江大學計算機學院的KLMVis科研項目",
+          "參與了多模態大模型蒸餾方面的工作"
+        ]
+      }
+    ],
+    "skillsData": [
+      {
+        "category": "編程語言",
+        "items": [
+          { "name": "C++", "level": 80 },
+          { "name": "JavaScript", "level": 70 },
+          { "name": "Python", "level": 70 },
+          { "name": "Java", "level": 65 }
+        ]
+      },
+      {
+        "category": "機器學習",
+        "items": [
+          { "name": "PyTorch", "level": 60 },
+          { "name": "Scikit-learn", "level": 55 },
+          { "name": "OpenCV", "level": 40 },
+          { "name": "TensorFlow", "level": 40 }
+        ]
+      },
+      {
+        "category": "Web開發",
+        "items": [
+          { "name": "Vue.js", "level": 85 },
+          { "name": "React", "level": 70 },
+          { "name": "Node.js", "level": 50 },
+          { "name": "Docker", "level": 50 }
+        ]
+      }
+    ],
+    "publicationsData": [
+      {
+        "id": 1,
+        "year": 2024,
+        "title": "KLMVis: Visual Analysis System for Retrieval-Augmented Language Models",
+        "authors": "Jian Shen, Minfeng Zhu, Yuxin Ma, <strong>Sizhe Cheng</strong>, Zhizhang Chen, Danfang Yan, Wei Chen",
+        "venue": "Journal of Computer-Aided Design and Computer Graphics",
+        "doi": "10.3724/SP.J.1089.2024-00393",
+        "url": "https://www.jcad.cn/cn/article/pdf/preview/10.3724/SP.J.1089.2024-00393.pdf"
+      }
+    ]
+  },
+  "honors": {
+    "title": "榮譽獎項",
+    "subtitle": "我獲得的認可和成就",
+    "award": "獎項",
+    "date": "獲獎時間",
+    "organization": "頒發機構",
+    "description": "描述",
+    "categories": [
+      { "key": "all", "name": "全部" },
+      { "key": "academic", "name": "學術獎項" },
+      { "key": "competition", "name": "競賽獎項" },
+      { "key": "other", "name": "其他" }
+    ],
+    "levels": {
+      "international": "國際級",
+      "national": "國家級",
+      "regional": "省市級",
+      "university": "校級"
+    },
+    "honorsData": [
+      {
+        "id": 1,
+        "title": "ACM-ICPC 2023 亞洲區域賽 銀牌",
+        "organization": "ACM-ICPC",
+        "date": "2023年11月",
+        "description": "在ACM-ICPC 2023 亞洲區域賽中獲得銀牌。",
+        "category": "academic",
+        "level": "international",
+        "icon": "🏆",
+        "link": "https://icpc.global"
+      },
+      {
+        "id": 2,
+        "title": "深圳市橋牌錦標賽 雙人賽 冠軍",
+        "organization": "深圳市橋牌協會",
+        "date": "2023年11月",
+        "description": "在深圳市橋牌錦標賽中獲得雙人賽冠軍。",
+        "category": "competition",
+        "level": "regional",
+        "icon": "🥇",
+        "link": "https://www.szpba.org.cn"
+      },
+      {
+        "id": 3,
+        "title": "南方科技大學 計算機系 優秀畢業生",
+        "organization": "南方科技大學",
+        "date": "2025年6月",
+        "description": "因學術成績優異和科研能力突出獲得南方科技大學計算機系優秀畢業生。",
+        "category": "other",
+        "level": "university",
+        "icon": "🎓",
+        "link": null
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "版權所有",
+    "allRightsReserved": "保留所有權利"
+  }
+} 
