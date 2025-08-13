@@ -168,6 +168,15 @@
         "venue": "计算机辅助设计与图形学学报",
         "doi": "10.3724/SP.J.1089.2024-00393",
         "url": "https://www.jcad.cn/cn/article/pdf/preview/10.3724/SP.J.1089.2024-00393.pdf"
+      },
+      {
+        "id": 2,
+        "year": 2025,
+        "title": "RAGTrace: 理解与优化检索增强生成中的检索-增强链路",
+        "authors": "<strong>程司哲*</strong>, 李佳平*, 王焕辰, 马昱欣",
+        "venue": "UIST '25",
+        "doi": "10.1145/3746059.3747741",
+        "url": "https://arxiv.org/abs/2508.06056"
       }
     ]
   },

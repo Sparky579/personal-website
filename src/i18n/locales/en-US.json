@@ -164,10 +164,19 @@
         "id": 1,
         "year": 2024,
         "title": "KLMVis: Visual Analysis System for Retrieval-Augmented Language Models",
-        "authors": "Shen Jian, Zhu Minfeng, Ma Yuxin, <strong>Cheng Sizhe</strong>, Chen Zhizhang, Yan Danfang, Chen Wei",
+        "authors": "Jian Shen, Minfeng Zhu, Yuxin Ma, <strong>Sizhe Cheng</strong>, Zhizhang Chen, Danfang Yan, Wei Chen",
         "venue": "Journal of Computer-Aided Design and Computer Graphics",
         "doi": "10.3724/SP.J.1089.2024-00393",
         "url": "https://www.jcad.cn/cn/article/pdf/preview/10.3724/SP.J.1089.2024-00393.pdf"
+      },
+      {
+        "id": 2,
+        "year": 2025,
+        "title": "RAGTrace: Understanding and Refining Retrieval-Generation Dynamics in Retrieval-Augmented Generation",
+        "authors": "<strong>Sizhe Cheng*</strong>, Jiaping Li*, Huanchen Wang, Yuxin Ma",
+        "venue": "The ACM Symposium on User Interface Software and Technology (UIST) ",
+        "doi": "10.1145/3746059.3747741",
+        "url": "https://arxiv.org/abs/2508.06056"
       }
     ]
   },
