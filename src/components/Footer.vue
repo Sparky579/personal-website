@@ -7,9 +7,9 @@
             <span class="icon">🏫</span>
             <span>{{ $t('common.school') }}: {{ contactInfo.school.name }}</span>
           </a>
-          <a :href="'mailto:' + contactInfo.email" class="contact-link">
+          <a :href="'mailto:' + contactInfo.emailRaw" class="contact-link">
             <span class="icon">📧</span>
-            <span>{{ $t('common.email') }}: {{ contactInfo.email }}</span>
+            <span>{{ $t('common.email') }}: {{ contactInfo.emailDisplay }}</span>
           </a>
           <a :href="contactInfo.orcid.url" target="_blank" class="contact-link">
             <span class="icon">🆔</span>
@@ -39,13 +39,16 @@ export default {
   },
   computed: {
     contactInfo() {
+      const emailDisplay = this.$t('info.email')
+      const emailRaw = typeof emailDisplay === 'string' ? emailDisplay.replace(/@@/g, '@') : ''
       return {
         name: 'Sparky327(Cheng Sizhe)',
         school: {
           name: this.$t('info.school'),
           url: 'https://www.ntu.edu.sg/'
         },
-        email: this.$t('info.email'),
+        emailDisplay,
+        emailRaw,
         orcid: {
           id: '0009-0001-2474-9230',
           url: 'https://orcid.org/0009-0001-2474-9230'
