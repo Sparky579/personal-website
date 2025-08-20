@@ -39,8 +39,8 @@ export default {
   },
   computed: {
     contactInfo() {
-      const emailDisplay = this.$t('info.email')
-      const emailRaw = typeof emailDisplay === 'string' ? emailDisplay.replace(/@@/g, '@') : ''
+      const emailDisplay = 'sizhe003@e.ntu.edu.sg'
+      const emailRaw = 'sizhe003@e.ntu.edu.sg'
       return {
         name: 'Sparky327(Cheng Sizhe)',
         school: {
