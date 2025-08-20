@@ -43,7 +43,7 @@ export default {
         name: 'Sparky327(Cheng Sizhe)',
         school: {
           name: this.$t('info.school'),
-          url: 'https://www.pku.edu.cn'
+          url: 'https://www.ntu.edu.sg/'
         },
         email: this.$t('info.email'),
         orcid: {
